@@ -7,16 +7,18 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="Amortisation">1.0.1</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">13-12-2023 09:25:56 GMT</value>
   <null name="extendedProperties"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2023-12-13T13:23:34.759291799Z</value>
+  <value name="lastUpdated">2023-12-13T17:06:07.9608207Z</value>
   <value name="wmProjectId">fle0c4f3fef64f06b91066ed</value>
   <value name="creator">Misja Heuveling</value>
 </Values>

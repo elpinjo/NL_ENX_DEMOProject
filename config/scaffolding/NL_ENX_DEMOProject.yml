@@ -7,3 +7,17 @@ packages:
   gitUrl: https://github.com/elpinjo/NL_ENX_DEMOProject
   gitUsername: elpinjo
   gitBranch: main
+- name: Amortisation
+  gitServerName: NL_MIHE_Github
+  gitUrl: https://github.com/elpinjo
+  gitUsername: elpinjo
+  gitBranch: master
+services:
+- serviceName: project.nl_enx_demo.integrations:calculateAmortisation
+  packages:
+  - name: NL_ENX_DEMOProject
+    version: "1.0"
+- serviceName: amortisation.priv.java:calculateAmortisation
+  packages:
+  - name: Amortisation
+    version: 1.0.1
