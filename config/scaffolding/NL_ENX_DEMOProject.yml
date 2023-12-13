@@ -17,7 +17,13 @@ services:
   packages:
   - name: NL_ENX_DEMOProject
     version: "1.0"
+  - name: Amortisation
+    version: 1.0.1
 - serviceName: amortisation.priv.java:calculateAmortisation
   packages:
   - name: Amortisation
     version: 1.0.1
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
