@@ -114,11 +114,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">misja.heuveling@softwareag.com</value>
-    <value name="lastModifiedDate">1702384291661</value>
+    <value name="lastModifiedDate">1702473814740</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">3b8d84114bd348efb14cbd5181a20292</value>
+      <value name="group">default</value>
+      <value name="name">NL_MIHE_K8S</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">calculateAmortisation</value>
     <value name="description"></value>
